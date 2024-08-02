@@ -18,7 +18,7 @@ ul{
     flex-wrap: wrap;
     justify-content: space-around;
 }
-ul button{
+#habilidades{
     color: aliceblue;
     background: none;
     border:none;

@@ -45,10 +45,9 @@ header{
 
 
 }
+
+
 .info{
-    display: none;
-}
-.infoOp{
     margin: 10px;
     padding:10px;
     min-width: 150px;
@@ -65,7 +64,7 @@ header{
 }
 
 
-.infoOp:hover{
+.info:hover{
     color:rgb(46,46,46);
     transform: scale(1.01);
     margin: 1vh;
