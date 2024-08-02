@@ -1,87 +1,8 @@
-
-body{
-    background: rgb(240, 212, 0);
-    padding: 5vh 5vh 1vh 5vh;
+@media only screen and (max-width:1000px){
+    header{
+        max-width:50vh;
+    }
 }
-
-#more{
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    color: rgb(46, 46, 46);
-    font-size: xx-large;
-}
-
-#tudo{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin:0.5vh;
-    padding: 0.5vh 0.5vh 0 0.5vh;
-    max-width: 100vw;
-    min-height: 90vh;
-    background: rgb(255, 225, 0);
-    border-radius: 10px;
-    border:1px solid rgb(46,46,46);
-    box-shadow:5px 5px rgb(46,46,46);
-  
-    
-}
-
-header{
-    margin:10vh 2vh 5vh 2vh;
-    font-size: 75px;
-    font-family: "calistoga";
-    color:aliceblue;
-    background: rgb(255, 225, 0);
-    border-bottom: 5px dotted aliceblue;
-}
-
-#carrossel{
-    display: flex;
-    flex-direction: column;
-
-
-}
-.info{
-    margin: 10px;
-    padding:10px;
-    min-width: 150px;
-    max-width:50vw;
-    height:10vh;
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(46, 46, 46);
-    color:aliceblue;
-    border-radius: 20px;
-    font-size: 15px;
-    text-align: center;
-}
-
-.info:hover{
-    transform: scale(1.01);
-
-}
-
-footer{
-    margin: 1vh;
-    padding:20px;
-    border-radius: 10px;
-    font-family: "calistoga";
-    text-align:center;
-}
-
-#img{
-    background-color: aliceblue;
-    border:1px solid;
-    box-shadow: 5px 5px rgb(46,46,46);
-    margin:4vh 10vh 2vh 10vh;
-    border-radius: 999px;
-    height:15vh;
-    align-self:self-end;
-    position: absolute;
-}
-
 @media only screen and (max-width:750px){
     body{
         background: rgb(2,0,36);
@@ -100,7 +21,6 @@ footer{
         padding: 0.5vh;
         max-width: 100vw;
         min-height: 90vh;
-        max-height: 110vh;
         background: rgb(46, 46, 46);
         border-radius: 10px;
         border:1px solid yellow;
@@ -127,8 +47,8 @@ footer{
     .info{
         margin: 10px;
         padding:10px;
-        min-width: 150px;
-        max-width:30vw;
+        min-width: 120px;
+        max-width:40vw;
         display: flex;
         flex-direction: column;
         color:rgb(46,46,46);
