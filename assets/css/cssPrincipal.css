@@ -46,6 +46,9 @@ header{
 
 }
 .info{
+    display: none;
+}
+.infoOp{
     margin: 10px;
     padding:10px;
     min-width: 150px;
@@ -58,13 +61,24 @@ header{
     border-radius: 20px;
     font-size: 15px;
     text-align: center;
-}
-.Ccontent{
- 
+    transition: 0.5s;
 }
 
-.info:hover{
+
+.infoOp:hover{
+    color:rgb(46,46,46);
     transform: scale(1.01);
+    margin: 1vh;
+    padding:20px;
+    border-radius: 10px;
+    font-family: "calistoga";
+    text-align: center;
+   
+    background: linear-gradient(231deg, #ffb600, #fffa00);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 1s ease infinite;
+    -moz-animation: AnimationName 1s ease infinite;
+    animation: AnimationName 1s ease infinite;
 
 }
 
