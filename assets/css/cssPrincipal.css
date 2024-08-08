@@ -45,9 +45,27 @@ header ul{
 }
 
 header li{
-    font-size:30px;
-    color: aliceblue;
+    padding: 10px;
+    text-align:left;
+    color: rgb(46, 46, 46);
     list-style: none;
+
+}
+#contato{
+    align-content: center;
+    font-size: large;
+    border: 1px solid rgb(46, 46, 46);
+    border-radius: 10px;
+    max-width:230px;
+    height: 100px;
+}
+a{
+    color:rgb(46,46,46);
+    text-decoration: none;
+}
+a:hover{
+    color:aliceblue;
+    text-decoration:solid;
 }
 
 .info{
