@@ -1,6 +1,6 @@
 @media only screen and (max-width:1000px){
     header{
-        max-width:50vh;
+        max-width:60vh;
     }
 }
 @media only screen and (max-width:750px){
@@ -16,7 +16,7 @@
         font-size: xx-large;
     }
 
-    ul{
+    .acordeon{
         max-width:70vw;
         border: 1px solid #fffa00;
     }
@@ -34,19 +34,20 @@
         
     }
     
-    header{
-        margin:5vh 2vh 5vh 2vh;
+    header #titulo{
+        max-width:50vh;
+        margin:10vh 2vh 5vh 2vh;
         font-size: 75px;
         font-family: "calistoga";
         color: rgb(255, 225, 0);
         background: rgb(46, 46, 46);
+        border-bottom: 5px dotted aliceblue;
     }
     
-    #carrossel{
-        display: flex;
-        flex-direction:row;
-        
-    }
+   #habilidades{
+    border-color: aliceblue;
+    color: aliceblue;
+   }
     .info{
         margin: 10px;
         padding:10px;
