@@ -33,7 +33,9 @@
         max-width:70vw;
         border: 1px solid #fffa00;
     }
-    
+    a{
+        color: aliceblue;
+    }
     #tudo{
         margin:0.5vh;
         padding: 0.5vh;

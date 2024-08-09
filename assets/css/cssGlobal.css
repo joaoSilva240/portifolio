@@ -6,6 +6,9 @@
         font-style: normal;
       
 }
+li{
+    list-style: none;
+}
 .acordeon{
     margin: 10px;
     padding: 2px;
